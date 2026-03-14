@@ -10,6 +10,7 @@ const Feedback = ({textoOK, textoNOK, funcaoOK, funcaoNOK}) => {
             className="btn btn-primary">
             {textoOK}
         </button>
+
         <button
             onClick = {funcaoNOK}
             type="button" 
